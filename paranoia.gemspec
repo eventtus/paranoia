@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.required_ruby_version = '>= 2.0'
 
-  s.add_dependency 'activerecord', '>= 4.0', '< 5.1'
+  s.add_dependency 'activerecord', '>= 4.0', '< 6.2'
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
